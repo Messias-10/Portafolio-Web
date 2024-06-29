@@ -4,7 +4,8 @@ import { FaGithub } from "react-icons/fa"
 import { FaInstagram } from "react-icons/fa"
 
 const Navbar2 = () => {
-  return <nav className="bg-red-900 mb-20 flex items-center justify between py-6">
+  return (
+  <nav className="mb-20 flex items-center justify-between py-6">
     <div className="flex flex-shrink-0 items-center">
         {//Aqui esta el codigo que es del LOGO
         }
@@ -16,6 +17,7 @@ const Navbar2 = () => {
         <FaInstagram />
     </div>
   </nav>
+  )
 }
 
 export default Navbar2
