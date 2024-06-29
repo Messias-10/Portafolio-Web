@@ -7,11 +7,11 @@ const Navbar2 = () => {
   return (
   <nav className="mb-20 flex items-center justify-between py-6">
     <div className="flex flex-shrink-0 items-center">
-        {//Aqui esta el codigo que es del LOGO
+        {//Aqui esta el codigo que es del Texto
         }
-        <img src={logo} alt="logo" />
+            <h1 class="animate-typing overflow-hidden font-thin whitespace-nowrap border-r-4 border-r-white pr-5 text-5xl text-white font-bold">LuckasDev</h1>
     </div>
-    <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+    <div className="m-10 flex items-center justify-center gap-4 text-2xl">
         <FaLinkedin />
         <FaGithub />
         <FaInstagram />
