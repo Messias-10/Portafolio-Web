@@ -12,7 +12,9 @@ const Navbar2 = () => {
             <h1 class="animate-typing overflow-hidden font-thin whitespace-nowrap border-r-4 border-r-white pr-5 text-5xl text-white font-bold">LuckasDev</h1>
     </div>
     <div className="m-10 flex items-center justify-center gap-4 text-2xl">
+      <a href="https://www.linkedin.com/in/luckasreyesg%C3%B3mez/" target="_blank" rel="noopener noreferrer">
         <FaLinkedin />
+      </a>
         <FaGithub />
         <FaInstagram />
     </div>
