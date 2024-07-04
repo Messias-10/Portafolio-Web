@@ -15,8 +15,9 @@ const Navbar2 = () => {
       <a href="https://www.linkedin.com/in/luckasreyesg%C3%B3mez/" target="_blank" rel="noopener noreferrer">
         <FaLinkedin />
       </a>
+      <a href="https://github.com/Messias-10" target="_blank" rel="noopener noreferrer">
         <FaGithub />
-        <FaInstagram />
+      </a>
     </div>
   </nav>
   )
