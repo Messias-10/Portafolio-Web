@@ -3,31 +3,31 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Estudiante de 5° año de Ingeniería Civil en Computación e Informática con una mentalidad perseverante y apasionada por los desafíos. Mi actitud se refleja en mi resistencia y dedicación incansable para superar obstáculos. Cuando me propongo un objetivo, no paro de aprender hasta convertirme en un conocedor sólido del tema. Esta persistencia se evidencia en mi trayectoria, donde he liderado proyectos de desarrollo de aplicaciones de escritorio/web/mobile, centrándome en la mejora constante de la experiencia del usuario.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `Mi actual enfoque es Data Engineering, desarrollo de aplicaciones móviles/web y refleja mi motivación para explorar nuevas áreas y abrazar la evolución tecnológica. Mi actitud positiva y entusiasta me impulsa a enfrentar cada nuevo desafío con determinación, siempre dispuesto a aprender algo nuevo, ya que creo que hay oportunidades de aprendizaje en cada experiencia. Considero que la persistencia y la actitud positiva son fundamentales para alcanzar el éxito en el campo de la tecnología, y estoy comprometido a seguir creciendo y mejorando continuamente.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
+    year: "2023 - PRESENT",
+    role: "Freelance Full Stack Developer",
+    company: "KOI",
     description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    technologies: ["React", "Tailwind", "Javascript", "MySQL"],
+  },
+  {
+    year: "ENERO 2024 - JUNIO 2024",
+    role: "Ingeniero de datos",
+    company: "Softys Chile",
+    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    technologies: ["Python", "SQL Server", "SSIS", "PowerBI"],
+  },
+  {
+    year: "ENE 2023 - MAYO 2023",
+    role: "Practicante Ingeniero en Ciberseguridad",
+    company: "COPEC",
+    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    technologies: ["Figma", "Tailwind", "React", "MySQL", "CrowdStrike"],
   },
   {
     year: "2020 - 2021",
@@ -40,10 +40,10 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Medical Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "Página totalmente funcional para empresa dedicada al rubro médico especificamente al odontólogico. Con herramientas de contacto y asignaciones.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
@@ -70,7 +70,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Santiago de Chile, Región Metropolitana ",
+  phoneNo: "",
+  email: "luckas.reyes@outlook.com",
 };
