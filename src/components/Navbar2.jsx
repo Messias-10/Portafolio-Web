@@ -13,10 +13,10 @@ const Navbar2 = () => {
     </div>
     <div className="m-10 flex items-center justify-center gap-4 text-2xl">
       <a href="https://www.linkedin.com/in/luckasreyesg%C3%B3mez/" target="_blank" rel="noopener noreferrer">
-        <FaLinkedin />
+      <FaLinkedin />
       </a>
       <a href="https://github.com/Messias-10" target="_blank" rel="noopener noreferrer">
-        <FaGithub />
+      <FaGithub />
       </a>
     </div>
   </nav>
