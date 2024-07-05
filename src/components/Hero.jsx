@@ -14,8 +14,18 @@ const Hero = () => {
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
             <div className="flex flex-col items-center lg:items-start">
-                <motion.h1 variants={container(0)} initial="hidden" animate="visible" className="pb-16 text-6xl sm:pb-16 sm:text-6xl font-thin tracking-tight lg:mt-12 lg:text-5xl">Luckas Matías Reyes Gómez</motion.h1>
-                <motion.span variants={container(0.5)} initial="hidden" animate="visible" className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">Software Engineer</motion.span>
+                <motion.h1 variants={container(0)} initial="hidden" animate="visible" className="pb-16 text-6xl sm:pb-16 sm:text-4xl font-thin tracking-tight lg:mt-12 lg:text-5xl">Luckas Matías Reyes Gómez</motion.h1>
+                <div>
+                <div class="inline-flex flex-col h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.4xl)*theme(lineHeight.tight))] overflow-hidden">
+                  <ul className="leading-tight animate-text-slide-3 [&_li]:block">
+                  <motion.li variants={container(0.5)} initial="hidden" animate="visible" className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl md:text-4xl lg:text-4xl tracking-tight text-transparent inline-flex">Software</motion.li>
+                  <motion.li variants={container(0.5)} initial="hidden" animate="visible" className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl md:text-4xl lg:text-4xl tracking-tight text-transparent inline-flex">Data</motion.li>
+                  <motion.li variants={container(0.5)} initial="hidden" animate="visible" className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl md:text-4xl lg:text-4xl tracking-tight text-transparent inline-flex">Machine Learning</motion.li>
+                  <motion.li aria-hidden="true" variants={container(0.5)} initial="hidden" animate="visible" className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl md:text-4xl lg:text-4xl tracking-tight text-transparent inline-flex">Software</motion.li>
+                  </ul>
+                </div>
+                <span className="text-3xl md:text-4xl lg:text-4xl tracking-tight text-left">&nbsp;Engineer</span>
+                </div>
                 <motion.p variants={container(1)} initial="hidden" animate="visible" className="my-2 max-w-xl py-6 font-light tracking-tighter">{HERO_CONTENT}</motion.p>
             </div>
         </div>
