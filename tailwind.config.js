@@ -26,7 +26,7 @@ export default {
           '100%': {
             transform: 'translateY(-75%)',
           },
-          typing: {
+          "typing": {
             "0%": {
               width: "0%",
               visibility: "hidden"
@@ -35,7 +35,7 @@ export default {
               width: "100%"
             }
           },
-          blink: {
+          "blink": {
             "50%": {
               borderColor: "transparent"
             },
@@ -47,7 +47,7 @@ export default {
       },
       animation: {
         "loop-scroll": "loop-scroll 50s linear infinite",
-        typing: "typing 2s steps(20), blink .7s infinite",
+        "typing": "typing 2s steps(20), blink .7s infinite",
         'text-slide-3': 'text-slide-3 8s cubic-bezier(0.83, 0, 0.17, 1) infinite'
       },
     },
